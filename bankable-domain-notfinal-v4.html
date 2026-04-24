@@ -3079,7 +3079,7 @@ document.getElementById('event-detail-modal').addEventListener('click', function
 
       <!-- ── FORM 2: Smart Report ── -->
       <form class="bd-form" id="form-smartreport"
-            action="https://formspree.io/f/YOUR_SMARTREPORT_ID"
+            action="https://formspree.io/f/xkoqpdbw"
             method="POST">
         <div class="form-top">
           <div class="form-intro">
@@ -3142,31 +3142,17 @@ document.getElementById('event-detail-modal').addEventListener('click', function
             <label>Institution Type *</label>
             <select name="institution_type" required>
               <option value="">Select one...</option>
-              <option>Community Bank</option>
-              <option>Regional Bank</option>
-              <option>Large / National Bank</option>
+              <option>Bank</option>
               <option>Credit Union</option>
               <option>Fintech</option>
-              <option>Insurance Carrier</option>
-              <option>Consulting Firm</option>
-              <option>Vendor / Technology Provider</option>
+              <option>Insurance</option>
+              <option>Professional Services</option>
+              <option>Vendor / Technology / Solution Provider</option>
               <option>Other</option>
             </select>
           </div>
-          <div class="field">
-            <label>Assets Under Management (AUM)</label>
-            <select name="aum">
-              <option value="">Select range...</option>
-              <option>Under $500M</option>
-              <option>$500M – $1B</option>
-              <option>$1B – $5B</option>
-              <option>$5B – $20B</option>
-              <option>$20B+</option>
-              <option>N/A</option>
-            </select>
-          </div>
           <div class="field field-full">
-            <label>Technology / Vendor Category Needed *</label>
+            <label>Solution Partner / Vendor Category Needed *</label>
             <input type="text" name="category" placeholder="e.g. Core Banking, BSA/AML, Digital Lending, KYC/KYB, Payments..." required>
           </div>
           <div class="field field-full">
@@ -3195,7 +3181,7 @@ document.getElementById('event-detail-modal').addEventListener('click', function
 
       <!-- ── FORM 3: Early Access & First-Look Programs ── -->
       <form class="bd-form" id="form-earlyaccess"
-            action="https://formspree.io/f/YOUR_EARLYACCESS_ID"
+            action="https://formspree.io/f/mlgpoqno"
             method="POST">
         <div class="form-top">
           <div class="form-intro">
@@ -3266,11 +3252,11 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <option>Pre-revenue / Seed</option>
               <option>Early Revenue / Series A</option>
               <option>Growth Stage / Series B+</option>
-              <option>Established — entering new market</option>
+              <option>Established / Public — entering new market</option>
             </select>
           </div>
           <div class="field field-full">
-            <label>Product / Solution Category *</label>
+            <label>Product or Service Offered / Solution Category *</label>
             <input type="text" name="category" placeholder="e.g. Digital Lending, BSA/AML, Core Banking, KYC/KYB, Payments, Stablecoin..." required>
           </div>
           <div class="field field-full">
@@ -3279,7 +3265,7 @@ document.getElementById('event-detail-modal').addEventListener('click', function
           </div>
           <div class="field field-full">
             <label>Target Institution Profile</label>
-            <textarea name="target_fi" rows="3" placeholder="What types of banks or credit unions are you targeting? Size, charter type, geography, maturity..."></textarea>
+            <textarea name="target_fi" rows="3" placeholder="What is Your Target Market and Current ICP? Size, charter type, industry, market segment..."></textarea>
           </div>
           <div class="field field-full">
             <label>What outcome are you seeking from the program? *</label>
@@ -3293,6 +3279,7 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <option>A few warm conversations but no pilots yet</option>
               <option>1–3 pilots in progress</option>
               <option>Multiple pilots / signed customers</option>
+              <option>Not applicable</option>
             </select>
           </div>
           <div class="field field-full">
@@ -3310,7 +3297,7 @@ document.getElementById('event-detail-modal').addEventListener('click', function
 
       <!-- ── FORM 4: NTTN Invitation ── -->
       <form class="bd-form" id="form-nttn"
-            action="https://formspree.io/f/YOUR_NTTN_ID"
+            action="https://formspree.io/f/mgonpgyj"
             method="POST">
         <div class="form-top">
           <div class="form-intro">
@@ -3357,10 +3344,9 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <option>Credit Union</option>
               <option>Fintech</option>
               <option>Regulator / Government</option>
-              <option>Law Firm</option>
-              <option>Consulting Firm</option>
-              <option>Technology Vendor</option>
-              <option>Private Equity / Venture Capital</option>
+              <option>Professional Services</option>
+              <option>Technology Vendor / Solution Provider</option>
+              <option>Private Credit or Equity / Venture Capital</option>
               <option>Other</option>
             </select>
           </div>
@@ -3381,10 +3367,11 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Stablecoin Risk & Opportunity"> Stablecoin Risk &amp; Opportunity</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Stablecoin Pipes & Players"> Stablecoin — Pipes &amp; Players</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Crypto & Digital Assets"> Crypto &amp; Digital Assets</label>
-              <label class="checkbox-label"><input type="checkbox" name="topics" value="Agentic AI & Robotics"> Agentic AI &amp; Robotics</label>
+              <label class="checkbox-label"><input type="checkbox" name="topics" value="Agentic Commerce, AI & Robotics"> Agentic Commerce, AI &amp; Robotics</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Real-Time Payments"> Real-Time Payments</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Card Programs"> Card Programs</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Deposits & Loan Origination"> Deposits &amp; Loan Origination</label>
+               <label class="checkbox-label"><input type="checkbox" name="topics" value="Treasury Solutions"> Treasury Solutions</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="KYC/KYB/KYT"> KYC / KYB / KYT</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="BSA/AML"> BSA / AML</label>
               <label class="checkbox-label"><input type="checkbox" name="topics" value="Regulatory Leaders Forum"> Regulatory Leaders Forum</label>
@@ -3405,12 +3392,12 @@ document.getElementById('event-detail-modal').addEventListener('click', function
 
       <!-- ── FORM 5: Fractional & Advisory ── -->
       <form class="bd-form" id="form-fractional"
-            action="https://formspree.io/f/YOUR_FRACTIONAL_ID"
+            action="https://formspree.io/f/maqplrbd"
             method="POST">
         <div class="form-top">
           <div class="form-intro">
             <h3>Fractional &amp; Advisory Services</h3>
-            <p>Access seasoned executive expertise in enterprise sales, GM leadership, product strategy, GTM, and engineering — deployed on your timeline and budget. Tell us what you need.</p>
+            <p>Access executive expertise in enterprise sales, GM leadership, product strategy, GTM, and strategy — deployed on your timeline and budget. Tell us what you need.</p>
           </div>
           <div class="form-callout">
             <div class="form-callout-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.66Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-1.66Z"/></svg></div>
@@ -3454,7 +3441,7 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <option>Credit Union</option>
               <option>Technology Vendor</option>
               <option>Private Equity / VC Portfolio Company</option>
-              <option>Consulting Firm</option>
+              <option>CPG / Global Brand</option>
               <option>Other</option>
             </select>
           </div>
@@ -3466,7 +3453,6 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <option>Project-Based Advisory</option>
               <option>Board / Advisor Role</option>
               <option>GTM Strategy Sprint</option>
-              <option>Sales Leadership / Team Build</option>
               <option>Not sure — let's talk</option>
             </select>
           </div>
@@ -3483,12 +3469,13 @@ document.getElementById('event-detail-modal').addEventListener('click', function
               <label class="checkbox-label"><input type="checkbox" name="expertise" value="Engineering Leadership"> Engineering Leadership</label>
               <label class="checkbox-label"><input type="checkbox" name="expertise" value="FI Channel Development"> FI Channel Development</label>
               <label class="checkbox-label"><input type="checkbox" name="expertise" value="Board Advisory"> Board Advisory</label>
-              <label class="checkbox-label"><input type="checkbox" name="expertise" value="Fundraising / Investor Relations"> Fundraising / Investor Relations</label>
+              <label class="checkbox-label"><input type="checkbox" name="expertise" value="Investor Relations"> Investor Relations</label>
+              <label class="checkbox-label"><input type="checkbox" name="expertise" value="Other"> Other</label>
             </div>
           </div>
           <div class="field field-full">
-            <label>Describe your challenge or opportunity *</label>
-            <textarea name="challenge" rows="5" placeholder="What are you trying to solve or accelerate? What's the current state, and what does success look like in 90 days?" required></textarea>
+            <label>Describe your challenge or opportunity</label>
+            <textarea name="challenge" rows="5" placeholder="What are you trying to solve or accelerate? What's the current state, and what does success look like in 90 days?"</textarea>
           </div>
           <div class="field">
             <label>Estimated Engagement Duration</label>
