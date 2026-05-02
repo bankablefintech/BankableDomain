@@ -1,0 +1,2 @@
+# Redirect any path back to index (single-page site)
+/*    /index.html   200
